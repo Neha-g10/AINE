@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #E5E5E5;
+}
+
+#navbar{
+    background-color: white;
+    height: 100vh;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: #808080;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 10px 10px 10px #C4C4C4;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.menu{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.menu:hover{
+    color: #000000;
+    background-color: rgba(22, 113, 219, 0.3);
+    border-left: 5px solid #1671DB;
+}
+
+#top{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    top: 0;
+}
+
+#videos{
+    padding-left: 130px;
+    padding-top: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   font-size: 15px;
+   color: #808080;
+}
+
+#arrowsort{
+    width: 15px;
+    margin-right: 3px;
+}
+
+#input{
+    position: absolute;
+  width: 50%;
+    height: 30px;
+    top: 30%;
+    left: 25%;
+border-style: none;
+border-radius: 5px;
+padding: 10px;
+font-size: 12px
+}
+
+::placeholder{
+    color: black;
+    }
+
+#text{
+        font-size: 12px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        font-weight: bold;
+    }
+
+    #upload-box{
+        height: 120px;
+        width: 120px;
+        background-color: white;
+        position: absolute;
+        top: 45%;
+        left: 25%;
+        text-align: center;
+        padding-top: 50px;
+        overflow: hidden;
+        cursor: pointer;
+        font-size:12px;
+        font-weight: bold;
+        
+    }
+   .hidden {
+        opacity: 0;
+        }
+     
+    .fileInput {
+            height: 100%;
+          position:absolute;
+            top: 0;
+            right: 0;
+       }
+    
+       
+        
+  
